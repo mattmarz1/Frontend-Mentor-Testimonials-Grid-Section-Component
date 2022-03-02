@@ -83,6 +83,14 @@ body {
     background-color: white;
 }
 
+#container #card1 img {
+    border: 2px solid hsl(264, 82%, 70%);
+}
+
+#container #card4 img {
+    border: 2px solid hsl(264, 82%, 70%);
+}
+
 #container .card-header {
     display: flex;
 }
@@ -113,7 +121,7 @@ body {
 
 #container #card3 .card-header .card-header-txt span:first-child, 
 #container #card5 .card-header .card-header-txt span:first-child {
-    color: black;
+    color: hsl(219, 29%, 14%);
 }
 
 #container #card3 .card-header .card-header-txt span:last-child, 
@@ -123,7 +131,7 @@ body {
 }
 
 #container #card3 .bold-txt, #card5 .bold-txt {
-    color: black;
+    color: hsl(219, 29%, 14%);
 }
 
 #container .card .bold-txt {
@@ -143,22 +151,25 @@ body {
     color: hsl(217 19% 35%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 1.2rem; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 
 
 
 /* For smaller computer screens */
 
-@media (max-height: 43.5625em) {
+@media (max-height: 46.875em) {
     #container {
-        padding-top: 2em;
-        padding-bottom: 2em;
         gap: 1.5em;
     }
 }
 
-@media (max-height: 43.5625em) {
+@media (max-height: 46.875em) {
     #container .card .bold-txt {
         line-height: 1.2;
         font-size: 1.25em;
@@ -166,7 +177,7 @@ body {
     }
 }
 
-@media (max-height: 43.5625em) {
+@media (max-height: 46.875em) {
     #container .card .non-bold-txt {
         margin-top: 1em;
         font-size: 0.8125em;
@@ -174,7 +185,7 @@ body {
     }
 }
 
-@media (max-height: 43.5625em) {
+@media (max-height: 46.875em) {
     #container .card {
         padding: 2em;
         border-radius: 0.5rem;
@@ -182,13 +193,13 @@ body {
     }
 }
 
-@media (max-height: 43.5625em) {
+@media (max-height: 46.875em) {
     #container .card-header .card-header-txt span:last-child {
         font-size: 0.6875em;
     }
 }
 
-@media (max-height: 43.5625em) {
+@media (max-height: 46.875em) {
     #container .card .card-header .card-header-txt span:first-child {
         font-size: 0.8125em;
     }
